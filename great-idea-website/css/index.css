@@ -72,7 +72,19 @@ h1, h2, h3, h4, h5 {
 	padding: 2%; 
 	display: inline-block;
 	width: 85%;
+	/*
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 50px;
+	background-color: deepskyblue;
+	*/
 }
+
+
+
 div a{
 	width: 60%;
 }
