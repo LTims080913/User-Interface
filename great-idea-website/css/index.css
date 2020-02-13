@@ -112,6 +112,7 @@ div a{
 	animation: fontbulger 1s infinite;
 	background-color: lawngreen;
 	color: forestgreen;
+	font-family: 'Archivo Black', sans-serif;
 }
 
 .top{
@@ -135,17 +136,20 @@ div a{
 .services{
 	display: inline-block;
 	width: 30%;
+	font-family: 'Concert One', cursive;
 }
 
 .product{
 	display: inline-block;
 	width: 30%;
 	margin: 0 4.40%;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 
 .vision{
 	display: inline-block;
 	width: 30%;
+	font-family: 'Parisienne', cursive;
 }
 
 .contact{
