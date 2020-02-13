@@ -53,6 +53,7 @@ table {
 }
 
 html, body {
+	width:80%;
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
