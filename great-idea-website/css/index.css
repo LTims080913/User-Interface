@@ -106,8 +106,14 @@ div a{
 	height: 30px;
 	color: black;
 	background: white;
-
+	font-size: 12px;
 }
+.gs:hover{
+	animation: fontbulger 1s infinite;
+	background-color: lawngreen;
+	color: forestgreen;
+}
+
 .top{
 	border-bottom: 1px solid black;
 }
@@ -166,3 +172,16 @@ div a{
 	padding-bottom: 5%;
 	border-bottom: 1px solid black;
 }
+
+@keyframes fontbulger{
+	0%{
+		font-size: 12px;
+	}
+	50%{
+		font-size: 20px;
+	}
+	100%{
+		font-size: 12px;
+	}
+}
+
